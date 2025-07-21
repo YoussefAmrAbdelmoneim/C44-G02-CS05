@@ -2,6 +2,15 @@
 {
     internal class Program
     {
+        #region Methods
+        //public static void printShape(string shape =":)" , int count =5)
+        //{
+        //    for (int i = 0; i < count; i++)
+        //    {
+        //        Console.WriteLine(shape);
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array
@@ -95,6 +104,12 @@
             //element = numbers[1];
             //numbers[0] = 100;
             //numbers.SetValue(100, 0);
+            #endregion
+            #endregion
+            #region Functions
+            #region Function Prototype
+            //printShape();
+            //printShape(@"/:\", 10);
             #endregion
             #endregion
         }
