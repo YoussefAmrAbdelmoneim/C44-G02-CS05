@@ -11,6 +11,56 @@
             //int[] numbers03 = { 1, 2, 3 };
             //int[] numbers04 = [1, 2, 3];
             #endregion
+            #region 2D Array
+            #region Ex 1
+            //int[,] Marks = new int[2, 5];
+            //Take Data from user
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades of student no {i+1} = ");
+            //    for (int j = 0; j < Marks.GetLength(1); )
+            //    {
+            //        Console.Write($"Subject no {j+1} : ");
+            //        bool isParsed = int.TryParse(Console.ReadLine(), out Marks[i, j]);
+            //        if (isParsed)
+            //        {
+            //            j++;
+            //        }
+            //    }
+            //        Console.WriteLine("============================");
+            //}
+
+            // print elements
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades of student no {i + 1} = ");
+            //    for (int j = 0; j < Marks.GetLength(1);j++)
+            //    {
+            //        Console.WriteLine($"Marks of subject no {j + 1} = {Marks[i,j]} ");
+            //    }
+            //    Console.WriteLine("============================");
+            //}
+            #endregion
+            #region Ex 2
+            //int[,] marks = new int[2, 4];
+            //for (int i = 0; i < marks.Length;)
+            //{
+            //    bool isParsed = int.TryParse(Console.ReadLine(), out int studentMark);
+            //    if (isParsed)
+            //    {
+            //        ++i;
+            //        marks[i/marks.GetLength(1),i%marks.GetLength(1)] = studentMark;
+            //    }
+            //}
+            ////print
+            //for (int i = 0; i < marks.length; i++)
+            //{
+            //    Console.WriteLine(marks[i / marks.GetLength(1), i % marks.GetLength(1)]);
+            //}
+            #endregion
+            #endregion
             #endregion
         }
     }
