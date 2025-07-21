@@ -61,6 +61,12 @@
             //}
             #endregion
             #endregion
+            #region Jagged Array
+            //int[][] JaggedArray = new int[3][];
+            //JaggedArray[0] = new int[4];
+            //JaggedArray[1] = new int[] {10,20};
+            //JaggedArray[2] = [30, 40, 50];
+            #endregion
             #endregion
         }
     }
