@@ -18,6 +18,24 @@
             //}
             //Console.WriteLine($"Sum of numbers : {sum}");
             #endregion
+            #region Array Q2
+            //int[] arr01 = {2,1,3,5,4};
+            //int[] arr02 = {8,7,6,9,10};
+            //int[] mergedArray = new int[10];
+            //for (int i = 0; i < arr01.Length; i++)
+            //{
+            //    mergedArray[i] = arr01[i];
+            //}
+            //for (int i = 0; i < arr02.Length; i++)
+            //{
+            //    mergedArray[arr01.Length + i] = arr02[i];
+            //}
+            //Array.Sort(mergedArray);
+            //for (int i = 0; i < mergedArray.Length; i++)
+            //{
+            //    Console.WriteLine(mergedArray[i]);
+            //}
+            #endregion
         }
     }
 }
