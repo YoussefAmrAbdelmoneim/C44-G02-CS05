@@ -10,6 +10,12 @@
         //        Console.WriteLine(shape);
         //    }
         //}
+        //public static void swap(ref int x, ref int y)
+        //{
+        //    int temp =x ;
+        //    x = y;
+        //    y = temp;
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -110,6 +116,17 @@
             #region Function Prototype
             //printShape();
             //printShape(@"/:\", 10);
+            #endregion
+            #region Function Parameters
+            #region Passing by value
+            //int a = 5, b = 10;
+            //swap(a, b);
+            #endregion
+            #region Passing by ref
+            //int a = 5, b = 10;
+            //swap(ref a, ref b);
+            //Console.WriteLine(a);
+            #endregion
             #endregion
             #endregion
         }
