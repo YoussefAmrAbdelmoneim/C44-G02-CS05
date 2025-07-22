@@ -74,6 +74,24 @@
             //}
             //Console.WriteLine($"Maximum number is {max} \nMinimum number is {min}");
             #endregion
+            #region Array Q5
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //int max = arr[0];
+            //int secondLargestElement = max;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        secondLargestElement = max;
+            //        max = arr[i];
+            //    }
+            //    else if (arr[i] > secondLargestElement && arr[i] != max)
+            //    {
+            //        secondLargestElement = arr[i];
+            //    }
+            //}
+            //Console.WriteLine(secondLargestElement);
+            #endregion
         }
     }
 }
