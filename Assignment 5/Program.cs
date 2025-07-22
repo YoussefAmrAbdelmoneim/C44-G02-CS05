@@ -36,6 +36,27 @@
             //    Console.WriteLine(mergedArray[i]);
             //}
             #endregion
+            #region Array Q3
+            //int[] arr = { 10, 20, 30, 10, 20, 10, 40, 50 };
+            //bool[] counted = new bool[arr.Length];
+            //Console.WriteLine("Frequency of each element:");
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (counted[i]) 
+            //     continue;
+
+            //    int count = 1;
+            //    for (int j = i + 1; j < arr.Length; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            count++;
+            //            counted[j] = true;
+            //        }
+            //    }
+            //    Console.WriteLine($"Element {arr[i]} appears {count} times");
+            //}
+            #endregion
         }
     }
 }
