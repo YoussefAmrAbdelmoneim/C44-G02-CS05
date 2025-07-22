@@ -121,6 +121,21 @@ namespace Assignment_5
             //}
             //Console.WriteLine("The longest distance between equal elements is: " + maxDistance);
             #endregion
+            #region Array Q8
+            //string word = Console.ReadLine() ?? "";
+            //string[] words = word.Split(' ');
+            //for (int i =words.Length -1 ; i >= 0; i--)
+            //{
+            //    if (words[i] != "")
+            //    {
+            //        Console.Write(words[i]);
+            //        if (i > 0)
+            //        {
+            //            Console.Write(" ");
+            //        }
+            //    }
+            // }
+            #endregion
         }
     }
 }
