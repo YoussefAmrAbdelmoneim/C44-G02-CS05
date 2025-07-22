@@ -1,4 +1,6 @@
-﻿namespace Assignment_5
+﻿using System.Threading.Tasks;
+
+namespace Assignment_5
 {
     internal class Program
     {
@@ -91,6 +93,33 @@
             //    }
             //}
             //Console.WriteLine(secondLargestElement);
+            #endregion
+            #region Array Q6,Q7
+            //Console.WriteLine("Please enter size of array");
+            //int.TryParse(Console.ReadLine(), out int size);
+            //int[] arr = new int[size];
+            //int maxDistance = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    int.TryParse(Console.ReadLine(), out int number);
+            //    arr[i] = number;
+            //}
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    for (int j = size -1 ; j > i; j--)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            int distance = j - i - 1;
+            //            if (distance > maxDistance)
+            //            {
+            //                maxDistance = distance;
+            //            }
+            //            break;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("The longest distance between equal elements is: " + maxDistance);
             #endregion
         }
     }
