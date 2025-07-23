@@ -60,6 +60,21 @@ namespace Assignment_5
         //    Console.WriteLine($"The sum of the digits of the number {number} is : {sum}");
         //}
         #endregion
+        #region Function Q5
+        //public static bool IsPrime(int number)
+        //{
+        //    if (number <= 1)
+        //        return false;
+
+        //    for (int i = 2; i < number; i++)
+        //    {
+        //        if (number % i == 0)
+        //            return false;
+        //    }
+
+        //    return true;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -275,6 +290,14 @@ namespace Assignment_5
             //Console.WriteLine("Enter a number: ");
             //string number = Console.ReadLine() ?? " ";
             //digitsSum(number);
+            #endregion
+            #region Function Q5
+            //Console.Write("Enter a number: ");
+            //int.TryParse(Console.ReadLine(),out int number);
+            //if (IsPrime(number))
+            //    Console.WriteLine($"{number} is a prime number.");
+            //else
+            //    Console.WriteLine($"{number} is not a prime number.");
             #endregion
         }
     }
