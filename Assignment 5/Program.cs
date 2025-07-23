@@ -42,6 +42,13 @@ namespace Assignment_5
             return sum;
         }
         #endregion
+        #region Function Q3
+        //public static void SumAndSub(int a,int b, out int sum , out int sub)
+        //{
+        //    sum = a + b;
+        //    sub = a - b;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -246,6 +253,12 @@ namespace Assignment_5
              */
             //Console.WriteLine(getSumRef(ref array));
             //Console.WriteLine(array[0]);
+            #endregion
+            #region Function Q3
+            //int sum;
+            //int sub;
+            //SumAndSub(5, 4, out sum, out sub);
+            //Console.WriteLine($"sum : {sum} , sub : {sub}");
             #endregion
         }
     }
