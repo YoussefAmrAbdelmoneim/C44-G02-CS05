@@ -93,6 +93,17 @@ namespace Assignment_5
         //    }
         //}
         #endregion
+        #region Function Q7
+        //public static void getFactorial(int number)
+        //{
+        //    int factorial = 1;
+        //    for (int i = 1; i <= number; i++)
+        //    {
+        //        factorial*= i;
+        //    }
+        //    Console.WriteLine(factorial);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -322,6 +333,9 @@ namespace Assignment_5
             //int max=0, min=0;
             //MinMaxArray(arr, ref max, ref min);
             //Console.WriteLine($"Maximum number is {max} , Minimum number is {min}");
+            #endregion
+            #region Function Q7
+            //getFactorial(5);
             #endregion
         }
     }
