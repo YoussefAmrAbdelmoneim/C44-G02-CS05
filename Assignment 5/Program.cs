@@ -104,6 +104,25 @@ namespace Assignment_5
         //    Console.WriteLine(factorial);
         //}
         #endregion
+        #region Function Q8
+        //public static void ChangeChar(string word ,int index , char newLetter)
+        //{
+        //    string result = "";
+        //    for (int i = 0; i < word.Length; i++)
+        //    {
+        //        if (i == index)
+        //        {
+        //            result += newLetter;
+        //        }
+        //        else
+        //        {
+        //            result += word[i];
+        //        }
+        //    }
+        //    word = result;
+        //    Console.WriteLine(word);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -336,6 +355,9 @@ namespace Assignment_5
             #endregion
             #region Function Q7
             //getFactorial(5);
+            #endregion
+            #region Function Q8
+            //ChangeChar("Hello",1, 'a');
             #endregion
         }
     }
