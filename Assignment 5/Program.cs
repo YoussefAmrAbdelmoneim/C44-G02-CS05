@@ -20,6 +20,28 @@ namespace Assignment_5
         //    Console.WriteLine($"SwapByRef: a = {a}, b = {b}");
         //}
         #endregion
+        #region Function Q2
+        public static int getSumValue(int[] array)
+        {
+            array = new int[] { 9, 9, 9, 9 };
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                sum += array[i];
+            }
+            return sum;
+        }
+        public static int getSumRef(ref int[] array)
+        {
+            array = new int[] { 9, 9, 9, 9 };
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                sum+= array[i];
+            }
+            return sum;
+        }
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -211,6 +233,19 @@ namespace Assignment_5
             //*/
             //SwapByRef(ref a,ref b);
             //Console.WriteLine($"value of a: {a}");
+            #endregion
+            #region Function Q2
+            //int[] array = { 1, 2, 3, 4 };
+            /* Pass by value (Reference type parameters)
+             * The reference itself is passed by value.
+             */
+            //Console.WriteLine(getSumValue(array));
+            //Console.WriteLine(array[0]);
+            /* Pass by reference (Reference type parameters)
+             * The reference itself is passed by reference.
+             */
+            //Console.WriteLine(getSumRef(ref array));
+            //Console.WriteLine(array[0]);
             #endregion
         }
     }
