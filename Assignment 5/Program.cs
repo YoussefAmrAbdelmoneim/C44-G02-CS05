@@ -136,6 +136,36 @@ namespace Assignment_5
             //    }
             // }
             #endregion
+            #region Array Q9
+            //int[,] arr01 = new int[2,5];
+            //int[,] arr02 = new int[2,5];
+            //int number;
+            //Console.WriteLine("Enter 10 integers for the 2x5 array:");
+            //for (int i = 0; i < arr01.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < arr01.GetLength(1); j++)
+            //    {
+            //        int.TryParse(Console.ReadLine(), out number);
+            //        arr01[i,j] = number;
+            //    }
+            //}
+            //for (int i = 0; i < arr02.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < arr02.GetLength(1); j++)
+            //    {
+            //        arr02[i, j] = arr01[i, j];
+            //    }
+            //}
+            //Console.Clear();
+            //Console.WriteLine("Copied Array (arr02):");
+            //for (int i = 0; i < arr02.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < arr02.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine(arr02[i,j]);
+            //    }
+            //}         
+            #endregion
         }
     }
 }
