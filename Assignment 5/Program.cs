@@ -49,6 +49,17 @@ namespace Assignment_5
         //    sub = a - b;
         //}
         #endregion
+        #region Function Q4
+        //public static void digitsSum(string number)
+        //{
+        //    int sum = 0;
+        //    for (int i = 0; i < number.Length; i++)
+        //    {
+        //        sum += number[i] - '0';
+        //    }
+        //    Console.WriteLine($"The sum of the digits of the number {number} is : {sum}");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -259,6 +270,11 @@ namespace Assignment_5
             //int sub;
             //SumAndSub(5, 4, out sum, out sub);
             //Console.WriteLine($"sum : {sum} , sub : {sub}");
+            #endregion
+            #region Function Q4
+            //Console.WriteLine("Enter a number: ");
+            //string number = Console.ReadLine() ?? " ";
+            //digitsSum(number);
             #endregion
         }
     }
