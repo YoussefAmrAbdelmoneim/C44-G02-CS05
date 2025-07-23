@@ -42,6 +42,11 @@
         //    }
         //    return sum;
         //}
+        //public static void SumSub(int x , int y , out int sum , out int sub)
+        //{
+        //    sum = x + y;
+        //    sub = x - y;
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -187,6 +192,12 @@
             //Console.WriteLine(numbers[0]);
             #endregion
             #endregion
+            #endregion
+            #region Function Parameters [Passing by out]
+            //int a = 10, b = 3, sumResult = 0,subResult=0 ;
+            //SumSub(a, b, out sumResult, out subResult);
+            //Console.WriteLine($"Sum is {sumResult}");
+            //Console.WriteLine($"Sub is {subResult}");
             #endregion
             #endregion
         }
