@@ -166,6 +166,22 @@ namespace Assignment_5
             //    }
             //}         
             #endregion
+            #region Array Q10
+            //Console.WriteLine("Please enter size of array: ");
+            //int.TryParse(Console.ReadLine(), out int size);
+            //int[] arr = new int[size];
+            //Console.WriteLine("Enter Numbers: ");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    int.TryParse(Console.ReadLine(), out int number);
+            //    arr[i] = number;
+            //}
+            //Console.WriteLine("Reversed array: ");
+            //for (int i = size - 1 ; i >=0; i--)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //}
+            #endregion
         }
     }
 }
