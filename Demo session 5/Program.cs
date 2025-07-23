@@ -47,6 +47,18 @@
         //    sum = x + y;
         //    sub = x - y;
         //}
+        //public static int getSumArray(params int[] array)
+        //{
+        //    int sum = 0;
+        //    if (array is not null)
+        //    {
+        //        for (int i = 0; i < array.Length; i++)
+        //        {
+        //            sum += array[i];
+        //        }
+        //    }
+        //    return sum;
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -198,6 +210,10 @@
             //SumSub(a, b, out sumResult, out subResult);
             //Console.WriteLine($"Sum is {sumResult}");
             //Console.WriteLine($"Sub is {subResult}");
+            #endregion
+            #region Function Paramters [Params]
+            //int result = getSumArray(1, 2, 3, 4, 5);
+            //Console.WriteLine(result);
             #endregion
             #endregion
         }
