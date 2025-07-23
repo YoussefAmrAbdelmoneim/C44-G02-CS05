@@ -75,6 +75,24 @@ namespace Assignment_5
         //    return true;
         //}
         #endregion
+        #region Function Q6
+        //public static void MinMaxArray(int[] numbers,ref int max, ref int min )
+        //{
+        //     max = numbers[0];
+        //     min = numbers[0];
+        //    for (int i = 0; i < numbers.Length; i++)
+        //    {
+        //        if (numbers[i] > max)
+        //        {
+        //            max = numbers[i];
+        //        }
+        //        if (numbers[i] < min)
+        //        {
+        //            min = numbers[i];
+        //        }
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -298,6 +316,12 @@ namespace Assignment_5
             //    Console.WriteLine($"{number} is a prime number.");
             //else
             //    Console.WriteLine($"{number} is not a prime number.");
+            #endregion
+            #region Function Q6
+            //int[] arr = { 1, 2, 8, 54, 78, 2, 6 };
+            //int max=0, min=0;
+            //MinMaxArray(arr, ref max, ref min);
+            //Console.WriteLine($"Maximum number is {max} , Minimum number is {min}");
             #endregion
         }
     }
