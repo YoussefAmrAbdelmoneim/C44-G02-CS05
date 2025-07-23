@@ -4,6 +4,22 @@ namespace Assignment_5
 {
     internal class Program
     {
+        #region Function Q1
+        //public static void SwapByValue(int a, int b)
+        //{
+        //    int temp = a;
+        //    a = b;
+        //    b = temp;
+        //    Console.WriteLine($"SwapByValue: a = {a}, b = {b}");
+        //}
+        //public static void SwapByRef(ref int a,ref int b)
+        //{
+        //    int temp = a;
+        //    a = b;
+        //    b = temp;
+        //    Console.WriteLine($"SwapByRef: a = {a}, b = {b}");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Array Q1
@@ -181,6 +197,20 @@ namespace Assignment_5
             //{
             //    Console.WriteLine(arr[i]);
             //}
+            #endregion
+            #region Function Q1
+            //int a = 5;
+            //int b = 10;
+            ///*Passing by Value
+            // * A copy of the variable is passed to the method.
+            //*/
+            //SwapByValue(a, b);
+            //Console.WriteLine($"value of a: {a}");
+            ///*Passing by reference
+            // *The reference to the actual variable is passed.
+            //*/
+            //SwapByRef(ref a,ref b);
+            //Console.WriteLine($"value of a: {a}");
             #endregion
         }
     }
