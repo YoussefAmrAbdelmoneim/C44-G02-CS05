@@ -16,19 +16,32 @@
         //    x = y;
         //    y = temp;
         //}
-        public static int getSumArray(ref int[] array)
-        {
-            int sum = 0;
-            if (array is not null)
-            {
-                array[0] = 100;
-            for (int i = 0; i < array.Length; i++)
-             {
-                sum += array[i];
-             }
-            }
-            return sum;
-        }
+        //public static int getSumArray(ref int[] array)
+        //{
+        //    int sum = 0;
+        //    if (array is not null)
+        //    {
+        //        array[0] = 100;
+        //        for (int i = 0; i < array.Length; i++)
+        //        {
+        //            sum += array[i];
+        //        }
+        //    }
+        //    return sum;
+        //}
+        //public static int getSumArray(ref int[] array)
+        //{
+        //    int sum = 0;
+        //    array =new int[] {10,20,30,40};
+        //    if (array is not null)
+        //    {
+        //        for (int i = 0; i < array.Length; i++)
+        //        {
+        //            sum += array[i];
+        //        }
+        //    }
+        //    return sum;
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -143,18 +156,36 @@
             #endregion
             #region Function Parameters [reference type]
             #region Passing by value
+            #region Ex01
             //int[] numbers = { 1, 2, 3 };
             //Console.WriteLine(numbers[0]);
             //int result = getSumArray(numbers);
             //Console.WriteLine(result);
             //Console.WriteLine(numbers[0]);
             #endregion
+            #region Ex02
+            //int[] numbers = { 1, 2, 3 };
+            //Console.WriteLine(numbers[0]);
+            //int result = getSumArray(numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+            #endregion
+            #endregion
             #region Passing by ref
+            #region Ex01
             //int[] numbers = { 1, 2, 3 };
             //Console.WriteLine(numbers[0]);
             //int result = getSumArray(ref numbers);
             //Console.WriteLine(result);
             //Console.WriteLine(numbers[0]);
+            #endregion
+            #region Ex02
+            //int[] numbers = { 1, 2, 3 };
+            //Console.WriteLine(numbers[0]);
+            //int result = getSumArray(ref numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+            #endregion
             #endregion
             #endregion
             #endregion
