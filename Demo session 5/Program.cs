@@ -16,6 +16,19 @@
         //    x = y;
         //    y = temp;
         //}
+        public static int getSumArray(ref int[] array)
+        {
+            int sum = 0;
+            if (array is not null)
+            {
+                array[0] = 100;
+            for (int i = 0; i < array.Length; i++)
+             {
+                sum += array[i];
+             }
+            }
+            return sum;
+        }
         #endregion
         static void Main(string[] args)
         {
@@ -117,7 +130,7 @@
             //printShape();
             //printShape(@"/:\", 10);
             #endregion
-            #region Function Parameters
+            #region Function Parameters [Value Type]
             #region Passing by value
             //int a = 5, b = 10;
             //swap(a, b);
@@ -126,6 +139,22 @@
             //int a = 5, b = 10;
             //swap(ref a, ref b);
             //Console.WriteLine(a);
+            #endregion
+            #endregion
+            #region Function Parameters [reference type]
+            #region Passing by value
+            //int[] numbers = { 1, 2, 3 };
+            //Console.WriteLine(numbers[0]);
+            //int result = getSumArray(numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+            #endregion
+            #region Passing by ref
+            //int[] numbers = { 1, 2, 3 };
+            //Console.WriteLine(numbers[0]);
+            //int result = getSumArray(ref numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
             #endregion
             #endregion
             #endregion
